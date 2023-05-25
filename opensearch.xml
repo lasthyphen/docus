@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <ShortName>Dijets Council Hub</ShortName>
+  <Description>Search Dijets Council Hub</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Image width="16" height="16" type="image/x-icon">http://127.0.0.1/docs/favicon.ico</Image>
+  <Url type="text/html" method="get" template="http://127.0.0.1/docs/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="http://127.0.0.1/docs/opensearch.xml" />
+  <moz:SearchForm>http://127.0.0.1/docs/</moz:SearchForm>
+</OpenSearchDescription>
